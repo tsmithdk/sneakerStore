@@ -1,0 +1,227 @@
+//NEWEST SNEAKERS (mysql)
+#containerNewSneakers{
+    display: grid;
+    justify-items: center;
+    background-color: #fff;
+    padding-top: 3em;
+
+    hr{
+        border: 1px solid #000;
+        width: 11%;
+        margin: 0 auto;
+    }
+
+#newSneakers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 80%;
+    justify-self: center;
+    grid-column-gap: 10px;
+    margin-top: 1em;
+    padding-bottom: 3em;
+    margin-bottom: 3em;
+    .containerNewSneaker:hover {
+        cursor:pointer;
+    }
+
+    .containerNewSneaker{
+        box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.35);
+        border-radius: 5px;
+
+        .newSneaker{
+            display: grid;
+
+            .imgNewest{
+                width: 100%;
+                height: 10rem;
+          
+            }
+        }
+        .containerInfos{
+            padding: 1em;
+            padding-top: 0;
+            display: grid;
+            .containerNameBrand{
+                h5{font-weight: 100;}
+                hr{
+                    width: 100%;
+                    border: 0.5px dashed #000;
+                    margin: 0;
+                }
+                h2{
+                    font-size:1.2em;
+                    margin-top: 1em;
+                }
+                span{font-weight: bold;}
+                h4{font-weight: bold;
+                    span{font-size: 1em;}
+                }
+            }
+            .sneakerPrice{
+                font-size: 0.83em;
+                text-align: center;
+            }
+        }
+    }
+}
+
+}
+
+
+
+
+
+//UPCOMING SNEAKERS
+
+
+#containerHomeUpcomingSneakers {
+    display: grid;
+    justify-items: center;
+    padding-top: 3em;
+    /* margin-top: 3em; */
+    padding-bottom: 3em;
+    margin-bottom: 3em;
+    /* background-color: $upcomingSneakerGray; */
+    background-color: #EEEFF0;
+
+
+    hr{border: 1px solid #000;
+        width: 20%;}
+
+    #homeUpcomingSneakers {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 2em;
+        grid-column-gap: 1em;
+
+        .containerUpcomingSneaker{
+            background-color: white;
+            padding: 1em;
+            -webkit-box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.35);
+            box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.35);
+
+            .upcomingSneaker {
+               /*  background-color: white; */
+               img{
+                width: 300px;
+                height: 200px;
+                max-width: 300px;
+               }
+            }
+            .containerInfos{
+                padding: 1em;
+                padding-top: 0;
+                display: grid;
+                .containerNameBrand{
+                    h4{font-weight: 100;
+                    font-size: 12px;}
+                    h2{font-size: 1rem}
+                }
+                .sneakerPrice{
+                    font-size: 0.73em;
+                    text-align: center;
+                }
+                label{
+                    font-weight: bold;
+                    font-size: 0.73em;
+                    text-align: right;
+                    }
+                input{
+                    font-family: "Roboto", sans-serif;
+                    border: none;
+                    font-weight: 500;
+                    font-size: 0.73em;
+                    background-color: #EEEFF0;
+                    margin: 0 auto;
+                    text-align: center;
+                }
+                hr{
+                    border: 0.5px solid #000;
+                    width: 100%;
+                }
+                .sneakerDescription{
+                    max-width: 16em;
+                    margin-top: 10px;
+                }
+                .containerRelease{
+                    margin-top: 1em;
+                    background-color: #EEEFF0;
+                    /* margin: 0 auto; */
+                    text-align: center;
+                    padding: 1em;
+                    display: grid;
+
+                    .insideContainerRelease{
+                        margin: 0 auto;
+                        display: grid;
+                        grid-template-columns: 0.8fr 1fr;
+                        justify-content: center;
+
+                        label{
+                            font-weight: bold;
+                            font-size: 0.73em;
+                            text-align: right;
+                            }
+                        input{
+                            font-family: "Roboto", sans-serif;
+                            border: none;
+                            font-weight: 500;
+                            font-size: 0.73em;
+                            background-color: #EEEFF0;
+                            margin: 0 auto;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+
+
+/* img {
+    max-width: 200px;
+} */
+
+
+
+//NEWS
+
+#containerNews{
+  display: grid;
+  justify-content: center;
+
+  hr{
+    border: 1px solid #000;
+    width: 20%;
+    margin: 0 auto;
+}
+
+  #homeNews{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    grid-column-gap: 1em;
+    padding-top: 2em;
+
+    .newsRow{
+      padding: 1em;
+      -webkit-box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.35);
+      box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.35);
+
+      div.newsItem{
+        font-weight: 100;
+        font-size: 12px;
+
+        img.newsImg{
+            height: 200px;
+            width: 300px;
+            max-width: 300px;
+        }
+      }
+    }
+  }
+}

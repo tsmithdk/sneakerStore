@@ -1,0 +1,187 @@
+@import "variables";
+
+#containerLogin{
+    display: grid;
+    justify-items: center;
+    padding-top: 4em;
+    width: 100%;
+    height: 100%;
+  }
+
+#frmLogin {
+    display: grid;
+    width: 70%;
+    //background-color: $darkGreen;
+    padding: 1rem;
+    border-radius: 10px;
+    justify-items: center;
+    grid-template-columns: 1fr;
+
+
+    #wrapperLogin{
+        display: grid;
+        grid-row-gap: 1rem;
+        width: 50%;
+
+        .containerGoodSignupTitle{
+        h1 {
+            display: grid;
+            justify-self: center;
+            font-weight: lighter;
+            font-size: 2em;
+            text-align: center;
+        }
+        h3, h6{
+            font-weight: lighter;
+            text-align: center;}
+
+        }
+        hr{
+            border: 0.3px solid $lightGreen;
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        .boxInput {
+            justify-items: center;
+
+            input{
+                width: 100%;
+                border: 1px solid #c5c6c7;
+                font-size: 1rem;
+                border-radius: 3px;
+                padding: 0.2em;
+            }
+          }
+
+
+        button {
+            width: 100%;
+            height: 2rem;
+            border: none;
+            background-color: $darkGreen;
+            color: #fff;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: $buttonHover;//$hoverLight;
+
+
+
+        }
+
+    }
+
+
+
+}
+
+.signupLink{
+    color: $lightDark;//color: $hoverLight;
+    text-decoration: none;
+    padding: 1rem 0 1rem 0;
+}
+.signupLink:hover{
+    color: $darkGreen;;
+}
+
+  div.invalid {
+    position: absolute;
+    top: 22px;
+    right: 10px;
+    color: red;
+    font-size: 12px;
+    display: none;
+  }
+
+
+  //********* Signup
+
+#containerSignup{
+    display: grid;
+    justify-items: center;
+    padding-top: 2em;
+    width: 100%;
+    height: 100%;
+
+  #frmSignup {
+    display: grid;
+    width: 70%;
+    //background-color: #4C627D;
+    color: $lightDark;
+   // background-color: $darkGreen;
+    padding: 1rem;
+    border-radius: 10px;
+    justify-items: center;
+    grid-template-columns: 1fr;
+
+
+    #wrapperSignup{
+        display: grid;
+        grid-row-gap: 1rem;
+        width: 70%;
+
+
+        h1 {
+            display: grid;
+            justify-self: center;
+            font-weight: lighter;
+            font-size: 2em;
+        }
+        hr{
+            border: 0.3px solid $lightGreen;
+            width: 50%;
+            margin: 0 auto;
+        }
+        .wrapperInput{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-column-gap: 1em;
+        }
+
+        .boxInput {
+            justify-items: center;
+
+            input{
+                width: 100%;
+                border: 1px solid #c5c6c7;
+                font-size: 1rem;
+                border-radius: 3px;
+                padding: 0.2em;
+            }
+            .containerSubscribe{
+                display: grid;
+                grid-template-columns: 0.1fr 1fr;
+                width: 38%;
+                input{
+                    margin-top: 3px;
+                }
+            }
+          }
+
+
+        button {
+            width: 100%;
+            height: 2rem;
+            border: none;
+            background-color: $darkGreen;
+            color: #fff;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: $buttonHover;//$hoverLight;
+
+
+        }
+
+        #btnSignup{
+            border-radius: 5px;
+        }
+
+    }
+
+
+}
+}

@@ -1,0 +1,38 @@
+.wrapperSearch {
+    display: grid;
+    justify-items: center;
+    padding-top: 4rem;
+    #frmSearchSite{
+        display: grid;
+        width: 40%;
+        grid-template-columns: 5fr 1fr;
+        grid-template-rows: 2rem;
+        padding-top: 1rem;
+    }
+}
+
+.wrapperResult {
+    display: grid;
+    justify-items: center;
+    padding-top: 4rem;
+    #searchResult{
+        display: grid;
+        width: 60%;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+        .searchedSneaker{
+            background-color: white;
+            padding: 1rem;
+            box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.35);
+            border-radius: 5px;
+            img {
+                width: 100%;
+                height: 10rem;
+            }
+        }
+        .searchedSneaker:hover{
+            cursor: pointer;
+        }
+    }
+
+}

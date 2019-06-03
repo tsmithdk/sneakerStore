@@ -1,0 +1,50 @@
+@import "variables";
+
+.containerSneaker{
+    .sneaker{
+        width: 100%;
+        display: grid;
+        padding-top: 5em;
+
+        .wrapperSneaker{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            width: 70%;
+            justify-self: center;
+            justify-items: center;
+
+            .imgSingleSneaker{
+                width: 500px;
+                padding: 10px;
+            }
+            .infoContainer{
+               /*  h2{font-size: 2.1rem;
+                } */
+                hr{border: 0.5px solid #000;}
+                .containerBrandPriceSizes{
+                    padding-top: 1em;
+                    display: grid;
+                    grid-template-rows: 30px 100px 25px 25px;
+
+                    .sneakerBrand{
+                        span{    font-weight: bold;}
+                    }
+
+                    #sneakerSizes{
+                        width: 7em;
+                        height: 2em;
+                    }
+                }
+            }
+            .btnAddSneaker{
+                width: 100%;
+                padding: 1em;
+
+                .fas{
+                    color: #000;
+                }
+            }
+        }
+    }
+
+}

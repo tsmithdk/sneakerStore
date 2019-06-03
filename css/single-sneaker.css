@@ -1,0 +1,58 @@
+.containerSneaker .sneaker {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  padding-top: 5em;
+}
+
+.containerSneaker .sneaker .wrapperSneaker {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  width: 70%;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  justify-items: center;
+}
+
+.containerSneaker .sneaker .wrapperSneaker .imgSingleSneaker {
+  width: 500px;
+  padding: 10px;
+}
+
+.containerSneaker .sneaker .wrapperSneaker .infoContainer {
+  /*  h2{font-size: 2.1rem;
+                } */
+}
+
+.containerSneaker .sneaker .wrapperSneaker .infoContainer hr {
+  border: 0.5px solid #000;
+}
+
+.containerSneaker .sneaker .wrapperSneaker .infoContainer .containerBrandPriceSizes {
+  padding-top: 1em;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 30px 100px 25px 25px;
+      grid-template-rows: 30px 100px 25px 25px;
+}
+
+.containerSneaker .sneaker .wrapperSneaker .infoContainer .containerBrandPriceSizes .sneakerBrand span {
+  font-weight: bold;
+}
+
+.containerSneaker .sneaker .wrapperSneaker .infoContainer .containerBrandPriceSizes #sneakerSizes {
+  width: 7em;
+  height: 2em;
+}
+
+.containerSneaker .sneaker .wrapperSneaker .btnAddSneaker {
+  width: 100%;
+  padding: 1em;
+}
+
+.containerSneaker .sneaker .wrapperSneaker .btnAddSneaker .fas {
+  color: #000;
+}
+/*# sourceMappingURL=single-sneaker.css.map */
